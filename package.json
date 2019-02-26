@@ -1,7 +1,7 @@
 {
-  "name": ".",
+  "name": "lodging-backend",
   "version": "0.0.1",
-  "description": "e-hailing backend",
+  "description": "Lodging backend",
   "author": "Muhammad Azizol Aminuddin",
   "license": "MIT",
   "scripts": {
