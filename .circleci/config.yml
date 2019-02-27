@@ -25,4 +25,5 @@ jobs:
             ./cc-test-reporter before-build
             npm run test:cov
             # upload test report to Code Climate using `after-build`
-            ./cc-test-reporter after-build --coverage-input-type clover --debug --exit-code $? --prefix ~/repo
+            pwd
+            ./cc-test-reporter after-build --coverage-input-type clover --debug --exit-code $? --prefix ~/repo/coverage
