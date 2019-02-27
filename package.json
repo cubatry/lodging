@@ -1,7 +1,7 @@
 {
-  "name": "lodging-backend",
+  "name": "lodging",
   "version": "0.0.1",
-  "description": "Lodging backend",
+  "description": "Lodging",
   "author": "Muhammad Azizol Aminuddin",
   "license": "MIT",
   "scripts": {
