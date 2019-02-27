@@ -25,4 +25,5 @@ jobs:
             ./cc-test-reporter before-build
             npm run test:cov
             # upload test report to Code Climate using `after-build`
+            ls build/logs
             ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
