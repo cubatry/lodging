@@ -27,4 +27,4 @@ jobs:
             # upload test report to Code Climate using `after-build`
             ls build/logs
             ls -la
-            ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
+            ./cc-test-reporter after-build --coverage-input-type clover --debug --exit-code $?
