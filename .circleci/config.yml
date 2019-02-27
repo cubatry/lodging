@@ -24,6 +24,5 @@ jobs:
             # notify Code Climate of a pending test report using `before-build`
             ./cc-test-reporter before-build
             npm run test:cov
-            cd coverage
             # upload test report to Code Climate using `after-build`
-            ../cc-test-reporter after-build --coverage-input-type clover --exit-code $?
+            ./cc-test-reporter after-build --coverage-input-type clover --exit-code $?
