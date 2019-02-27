@@ -54,7 +54,7 @@
     "transform": {
       "^.+\\.(t|j)s$": "ts-jest"
     },
-    "coverageDirectory": "../build/logs",
+    "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   }
 }
