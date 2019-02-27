@@ -26,4 +26,4 @@ jobs:
             npm run test:cov
             # upload test report to Code Climate using `after-build`
             pwd
-            ./cc-test-reporter after-build --debug --exit-code $? --prefix /home/circleci/repo
+            ./cc-test-reporter after-build --coverage-input-type lcov --debug --exit-code $? --prefix /home/circleci/repo
