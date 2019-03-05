@@ -20,4 +20,15 @@ describe('AppController (e2e)', () => {
       .expect(200)
       .expect('Hello World!');
   });
+
+  
+  it('/login (GET)', () => {
+    return request(app.getHttpServer())
+      .get('/login')
+      .expect(200)
+      .then((data)=>{
+        expect(data.text).toContain('User Login');
+      })
+      // . ('Hello World!');
+  });
 });

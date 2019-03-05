@@ -19,4 +19,10 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
   });
+
+  describe('/login', () => {
+    it('should have "User Login"', () => {
+      expect(appController.getLogin()).toContain('User Login');
+    });
+  });
 });
